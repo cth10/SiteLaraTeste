@@ -14,7 +14,7 @@
         <img src="images/s.webp" alt="Treinamentos">
         <div class="text-overlay">
             <h2>Treinamentos</h2>
-            <a href="#">Clique aqui</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScx6pmEBrXR3qFHEkuDlAxFqBVQRbi1sP67hLnKOhPa1QUv8A/viewform?pli=1" target="_blank" rel="noopener">Clique aqui</a>
         </div>
     </div>
 
@@ -33,7 +33,7 @@
         <img src="images/lara-patricia.jpg" alt="Lara Patrícia">
         <div class="text-overlay">
             <h2>Site</h2>
-            <a href="#">Clique aqui</a>
+            <a href="https://www.psicologalarapatricia.com.br/" target="_blank" rel="noopener">Clique aqui</a>
         </div>
         <div class="info-overlay">
             <p>Psicóloga</p>
@@ -46,7 +46,7 @@
         <img src="images/hand-umbrella.jpg" alt="Terapia">
         <div class="text-overlay">
             <h2>Terapia</h2>
-            <a href="#">Clique aqui</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScx6pmEBrXR3qFHEkuDlAxFqBVQRbi1sP67hLnKOhPa1QUv8A/viewform?" target="_blank" rel="noopener">Clique aqui</a>
         </div>
     </div>
 
@@ -74,18 +74,9 @@
             }
         });
         
-        // Add event listeners for the clickable areas
-        const clickableAreas = document.querySelectorAll('.text-overlay a');
-        
-        clickableAreas.forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const section = this.closest('.grid-item').querySelector('h2').textContent.trim();
-                alert(`Você clicou em: ${section}`);
-                // Aqui você pode adicionar a lógica para redirecionar para as páginas correspondentes
-            });
+
         });
-    });
+    
 </script>
 </body>
 </html>
