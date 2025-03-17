@@ -203,7 +203,7 @@ body {
     }
     
     .whatsapp-wrapper {
-        transform: translateY(20px); /* Reduced further for small screens */
+        transform: translateY(30px); /* Reduced further for small screens */
     }
     
     .profile-info {
