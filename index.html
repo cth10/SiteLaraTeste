@@ -1,82 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Lara Patrícia - Psicóloga</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lara Patrícia - Psicóloga</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <!-- Treinamentos Section -->
-    <div class="grid-item">
-        <img src="images/s.webp" alt="Treinamentos">
-        <div class="text-overlay">
-            <h2>Treinamentos</h2>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScx6pmEBrXR3qFHEkuDlAxFqBVQRbi1sP67hLnKOhPa1QUv8A/viewform?pli=1" target="_blank" rel="noopener">Clique aqui</a>
+    <main class="container">
+        <!-- Treinamentos Section -->
+        <div class="card">
+            <img src="images/s.webp" alt="Treinamentos" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Treinamentos</h2>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScx6pmEBrXR3qFHEkuDlAxFqBVQRbi1sP67hLnKOhPa1QUv8A/viewform?pli=1" class="card-link" target="_blank" rel="noopener">Clique aqui</a>
+            </div>
         </div>
-    </div>
 
-    <!-- Coffee/Relaxation Image -->
-    <div class="grid-item">
-        <img src="images/coffee-cup.jpg" alt="Relaxamento">
-    </div>
-
-    <!-- Logo and Name Section -->
-    <div class="grid-item logo-section">
-        <img src="images/logo-lara-patricia.jpg" alt="Logo Lara Patrícia">
-    </div>
-
-    <!-- Psychologist Photo Section -->
-    <div class="grid-item">
-        <img src="images/lara-patricia.jpg" alt="Lara Patrícia">
-        <div class="text-overlay">
-            <h2>Site</h2>
-            <a href="https://www.psicologalarapatricia.com.br/" target="_blank" rel="noopener">Clique aqui</a>
+        <!-- Coffee/Relaxation Image -->
+        <div class="card">
+            <img src="images/coffee-cup.jpg" alt="Relaxamento" class="card-image">
         </div>
-        <div class="info-overlay">
-            <p>Psicóloga</p>
-            <p>@psi.Lara.pwa</p>
+
+        <!-- Logo and Name Section -->
+        <div class="card logo-card">
+            <img src="images/logo-lara-patricia.jpg" alt="Logo Lara Patrícia" class="logo-image">
         </div>
-    </div>
 
-    <!-- Therapy Section -->
-    <div class="grid-item">
-        <img src="images/hand-umbrella.jpg" alt="Terapia">
-        <div class="text-overlay">
-            <h2>Terapia</h2>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScx6pmEBrXR3qFHEkuDlAxFqBVQRbi1sP67hLnKOhPa1QUv8A/viewform?" target="_blank" rel="noopener">Clique aqui</a>
+        <!-- Psychologist Photo Section -->
+        <div class="card">
+            <img src="images/lara-patricia.jpg" alt="Lara Patrícia" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Site</h2>
+                <a href="https://www.psicologalarapatricia.com.br/" class="card-link" target="_blank" rel="noopener">Clique aqui</a>
+            </div>
+            <div class="profile-info">
+                <p>Psicóloga</p>
+                <p>@psi.Lara.pwa</p>
+            </div>
         </div>
-    </div>
 
-    <!-- Texture Image -->
-    <div class="grid-item">
-        <img src="images/sand-texture.jpg" alt="Textura">
-    </div>
-</div>
+        <!-- Therapy Section -->
+        <div class="card">
+            <img src="images/hand-umbrella.jpg" alt="Terapia" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Terapia</h2>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScx6pmEBrXR3qFHEkuDlAxFqBVQRbi1sP67hLnKOhPa1QUv8A/viewform?" class="card-link" target="_blank" rel="noopener">Clique aqui</a>
+            </div>
+        </div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Garantir que as imagens sejam carregadas com qualidade
-        const images = document.querySelectorAll('.grid-item img');
-        
-        images.forEach(img => {
-            img.addEventListener('load', function() {
-                this.style.visibility = 'visible';
-            });
+        <!-- WhatsApp Contact Section -->
+        <div class="card">
+            <img src="images/sand-texture.jpg" alt="Fale Comigo" class="card-image">
+            <div class="card-content">
+                <div class="whatsapp-wrapper">
+                    <h2 class="card-title">
+                        <a href="https://wa.me/5547991879595/?text=Ol%C3%A1%20Lara!%20Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20seu%20trabalho." target="_blank" rel="noopener" class="whatsapp-text-link">FALE COMIGO<br>AGORA</a>
+                    </h2>
+                    <a href="https://wa.me/5547991879595/?text=Ol%C3%A1%20Lara!%20Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20seu%20trabalho." class="card-link whatsapp-link" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#25D366" class="whatsapp-icon" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('.card-image, .logo-image');
             
-            // Verificar se a imagem já está no cache
-            if (img.complete) {
-                img.style.visibility = 'visible';
-            } else {
-                img.style.visibility = 'hidden';
-            }
+            images.forEach(img => {
+                img.addEventListener('load', function() {
+                    this.style.visibility = 'visible';
+                });
+                
+                if (img.complete) {
+                    img.style.visibility = 'visible';
+                } else {
+                    img.style.visibility = 'hidden';
+                }
+            });
         });
-        
-
-        });
-    
-</script>
+    </script>
 </body>
 </html>
